@@ -128,6 +128,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Internal Documentation (do not commit)
+*_REVIEW.md
+*_IMPLEMENTATION_*.md
+PROJECT_STRUCTURE.md
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -153,3 +158,9 @@ dmypy.json
 cython_debug/
 
 .idea/
+
+# HTTP Cache (requests_cache)
+gdelt_cache.sqlite
+gdelt_cache.sqlite-shm
+gdelt_cache.sqlite-wal
+*_cache.sqlite
